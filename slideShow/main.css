@@ -1,0 +1,32 @@
+.slideshow {
+	width: 500px;
+	height: 400px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.slideshow__display {
+	position: relative;
+	height: 300px;
+	border: 1px dotted #ccc;
+}
+
+.slideshow__display img {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.slideshow__list {
+	margin: 0;
+	margin-top: 10px;
+	padding: 0;
+	list-style: none;
+}
+
+.slideshow__item {
+	display: inline-block;
+}

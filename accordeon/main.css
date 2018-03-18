@@ -1,0 +1,16 @@
+.accordeon__item {
+	margin-bottom: 10px;
+}
+.accordeon__item a {
+	text-decoration: none;
+}
+
+.accordeon__trigger {
+	display: block;
+	width: 300px;
+	background-color: #ccc;
+}
+
+.accordeon__inner {
+	display: none;
+}

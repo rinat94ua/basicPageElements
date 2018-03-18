@@ -1,0 +1,42 @@
+.slider {
+	position: relative;
+	display: inline-block;
+	margin-left: 200px;
+}
+
+.slider__list-wrap {
+	width: 400px;
+	height: 300px;
+	overflow: hidden;
+}
+
+.slider__list {
+	position: relative;
+	width: 2000px;
+	left: 0;
+	list-style: none;
+	transition: 0.3s all ;
+}
+
+.slider__list::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.slider__item {
+	float: left;
+}
+
+.slider__controls-button {
+	position: absolute;
+	top: 50px;
+}
+
+.slider__controls-button--next {
+	right: -100px;
+}
+
+.slider__controls-button--prev {
+	left: -100px;
+}

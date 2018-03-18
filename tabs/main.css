@@ -1,0 +1,26 @@
+.tabs__controls-item {
+	display: inline-block;
+}
+
+.tabs__controls-link {
+	display: block;
+	background-color: #0ff;
+}
+
+
+.tabs__list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.tabs__item {
+	padding-left: 50px; 
+	display: none;
+	border: 1px dashed #ccc;
+}
+
+.tabs__item.active {
+	display: block;
+}
+
